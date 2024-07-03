@@ -1,3 +1,5 @@
+// Implement a module to calculate monthly loan payments using the formula: M = P[r(1+r)^n]/[(1+r)^n-1].
+
 export function calculateLoanPayment(principal, annualRate, years) {
     const monthlyRate = annualRate / 12;
     const numberOfPayments = years * 12;
